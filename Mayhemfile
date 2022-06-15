@@ -1,6 +1,5 @@
-project: rnshah9/yash
+project: yash
 target: yash
-tests: null
 
 cmds:
   - cmd: /repo/yash @@
