@@ -2,4 +2,4 @@ project: yash
 target: yash
 
 cmds:
-  - cmd: /repo/yash @@
+  - cmd: /install/bin/yash @@
