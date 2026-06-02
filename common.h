@@ -54,6 +54,9 @@
 # define DUMMY_INIT(dummy_initial_value) = (dummy_initial_value)
 #endif
 
+#ifndef __has_builtin
+# define __has_builtin(x) 0
+#endif
 #if defined(__has_builtin) && __has_builtin(__builtin_unreachable)
 # define UNREACHABLE() \
     do { \
